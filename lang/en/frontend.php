@@ -39,7 +39,7 @@ return [
     'keunggulan_3' => 'Providing nickel, limestone, silica sand and coal products according to customer needs and requests. We always push ourselves to improve the quality of our products and services in order to meet clients demands.',
     'visi_isi' => 'To become a nickel, coal, limestone, and silica sand trading company that has high integrity and is globally recognized as a leader in growth, efficiency and reputation as well as being environmentally responsible.',
     'misi_isi' => 'Provide quality products from sources that can be trusted with standards and carry out all business processes with integrity and honesty. Synergize with nickel, limestone coal and silica sand producers to ensure consistent long-term ability to meet targets',
-
+    'announcement' => 'Announcement'
 
 
 ];
