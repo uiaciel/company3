@@ -1,272 +1,260 @@
 @extends('layouts.app')
-@section('slider')
-    <section id="slider">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="/img/header-SMGA.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="/img/header-SMGA-2.png" class="d-block w-100" alt="...">
-                </div>
-
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </section>
-@endsection
+<!-- Carousel Start -->
 @section('content')
-    <section class="py-5 text-center container">
-        <div class="row py-lg-5">
-            <div class="col-lg-12 col-md-12 mx-auto">
-                <h1 class="fw-light">PT. Sumber Mineral Global Abadi Tbk</h1>
-                <p class="lead text-muted fs-3">{{ __('frontend.ringkasan') }}</p>
-                {{-- <p>
-                        <a href="#" class="btn btn-primary my-2">Hubungi Kami</a>
+    {{-- <nav class="py-0 bg-primary  ">
+        <div class="container d-flex flex-wrap">
+            <ul class="nav me-auto">
+                <li class="nav-item"><a href="#" class="nav-link link-dark px-2"><i class="bi bi-telephone-fill">
+                            +6221 – 250 0120</i></a></li>
+                <li class="nav-item"><a href="#" class="nav-link link-dark px-2"><i
+                            class="bi bi-envelope-fill"></i> info@sumberglobalenergy.com</a></li>
 
-                    </p> --}}
-
-            </div>
+            </ul>
+            <ul class="nav d-none d-lg-block d-xl-none">
+                <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Login</a></li>
+                <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Sign up</a></li>
+            </ul>
         </div>
-    </section>
-    <section class="py-5 bg-dark why-us section-bg" id="why-us">
+    </nav> --}}
+
+
+    {{-- @yield('slider') --}}
+    <section id="home" class="home bg-dark fix">
+        <div class="overlay"></div>
         <div class="container">
             <div class="row">
-                <h1 class="fw-light mb-4 text-white">{{ __('frontend.keunggulan') }}</h1>
-                <div class="col-md-6">
+                <div class="main_home text-center">
+                    <div class="col-md-12">
+                        <div class="hello_slid slick-initialized slick-slider">
+                            <div aria-live="polite" class="slick-list draggable">
+                                <div class="slick-track" role="listbox"
+                                    style="opacity: 1; width: 1140px; transform: translate3d(0px, 0px, 0px);">
+                                    <div class="slid_item slick-slide slick-current slick-active" data-slick-index="0"
+                                        aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide00"
+                                        style="width: 1140px;">
+                                        <div class="home_text ">
+                                            <h2 class="text-white">Welcome</h2>
+                                            <h1 class="text-white">HINENI RESOURCES PTE. LTD</h1>
+                                            <h3 class="text-white">- was established in <strong>2021</strong></h3>
+                                        </div>
 
-                    <div class="accordion-list">
-                        <ul>
-                            <li> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"
-                                    aria-expanded="true"><span>01</span> {{ __('frontend.pengendalian') }} <i
-                                        class="bi bi-chevron-down icon-show"></i><i
-                                        class="bi bi-chevron-up icon-close"></i></a>
-                                <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
-                                    <p>{{ __('frontend.keunggulan_1') }}</p>
+                                        <div class="home_btns m-top-40">
+                                            <a href="mailto:inqury@hineniresources.com" class="btn btn-primary m-top-20"
+                                                tabindex="0">Contact Us</a>
+                                            <!-- <a href="" class="btn btn-default m-top-20">Take a Tour</a> -->
+                                        </div>
+                                    </div>
                                 </div>
-                            </li>
-                            <li> <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"
-                                    aria-expanded="false"><span>02</span>
-                                    {{ __('frontend.presisi') }}
-                                    <i class="bi bi-chevron-down icon-show"></i><i
-                                        class="bi bi-chevron-up icon-close"></i></a>
-                                <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
-                                    <p>{{ __('frontend.keunggulan_2') }}</p>
-                                </div>
-                            </li>
-                            <li> <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"
-                                    aria-expanded="false"><span>03</span>
-                                    {{ __('frontend.customized') }} <i class="bi bi-chevron-down icon-show"></i><i
-                                        class="bi bi-chevron-up icon-close"></i></a>
-                                <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
-                                    <p>{{ __('frontend.keunggulan_3') }}
+                            </div><!-- End off slid item -->
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <!--End off row-->
+        </div>
+        <!--End off container -->
+    </section>
+
+    <section id="aboutus" class="bg-black">
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-md-6">
+                    <img src="http://hineniresources.com/assets/images/profile-hineniresource.png" class="img-fluid">
+                    <!-- <div class="business_slid">
+                                                                                                                                    <div class="slid_shap bg-grey"></div>
+                                                                                                                                    <div class="business_items text-center">
+                                                                                                                                        <div class="business_item">
+                                                                                                                                            <div class="business_img">
+                                                                                                                                                <img src="assets/images/about-img1.jpg" alt="" />
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+
+                                                                                                                                        <div class="business_item">
+                                                                                                                                            <div class="business_img">
+                                                                                                                                                <img src="assets/images/about-img1.jpg" alt="" />
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+
+                                                                                                                                        <div class="business_item">
+                                                                                                                                            <div class="business_img">
+                                                                                                                                                <img src="assets/images/about-img1.jpg" alt="" />
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div> -->
+                </div>
+
+                <div class="col-md-6">
+                    <div class="sm-m-top-50">
+                        <h2 class="text-uppercase text-white"><strong>COMPANY</strong> BACKGROUND</h2>
+                        <!-- <ul>
+                                                                                                                                        <li><i class="fa fa-arrow-circle-right"></i> Clean & Modern Design</li>
+                                                                                                                                        <li><i class="fa  fa-arrow-circle-right"></i> Fully Responsive</li>
+                                                                                                                                        <li><i class="fa  fa-arrow-circle-right"></i> Google Fonts</li>
+                                                                                                                                    </ul> -->
+                        <p class="m-top-20 text-white">HINENI RESOURCES PTE. LTD was established in 2021. Our main
+                            office is located in
+                            Orchard Tower, Singapore. We also operate in Jakarta, Indonesia. The Business's
+                            principal
+                            activity is WHOLESALE TRADE OF A VARIETY OF GOODS WITHOUT A DOMINANT PRODUCT.
+                            (eg COAL TRADING).
+                        </p>
+                        <p class="text-white">
+                            The Business's secondary activity is OTHER HOLDING COMPANIES.
+                            (eg FOR INVESTMENT IN OTHER BUSINESS. Hineni Resources is a reliable and efficient
+                            team. Each member is capable and confident in handling and installing various works in
+                            the
+                            oil &amp; gas upstream, midstream and downstream sectors.
+                        </p>
+                        <p class="text-white">
+                            HINENI RESOURCES PTE. LTDis a Singapore incorporated company that engages in
+                            international customers from various industrial sectors.
+                        </p>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="action" class="action roomy-40" style=" background-color: #8dc73f; ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="action_item text-center">
+                        <h2 class="text-white">inquiry@hineniresources.com</h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-grid gap-2 text-start me-4 sm-text-center">
+                        <button class="btn btn-dark" type="button">Contact Us</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="text-center mb-3 mt-5 ">
+
+            <h1 class="text-black">News & Update</h1>
+            {{-- <h3 class="text-white">- was established in <strong>2021</strong></h3> --}}
+        </div>
+        <div class="row mb-3 mt-3">
+            <div class="col-md-12">
+                <div class="d-flex justify-content-between">
+                    @foreach ($berita as $news)
+                        <article class="p-3">
+                            <div class="card border-0">
+                                <figure class="card-img-top m-0 overflow-hidden bsb-hover-overlay">
+                                    <a href="#"
+                                        onclick="if (!window.__cfRLUnblockHandlers) return false; return false;">
+                                        <img decoding="async" class="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy"
+                                            src="https://bootstrapbrain.com/wp-content/plugins/bootstrap-brain/components-pro/blogs-pro/blog-2/assets/img/blog-image-1.jpg"
+                                            alt="">
+                                    </a>
+
+                                </figure>
+                                <div class="card-body border bg-white p-4">
+                                    <div class="entry-header mb-3">
+                                        <div class="entry-meta mb-3">
+                                            <ul class="nav">
+                                                <li class="nav-item">
+                                                    <a class="nav-link d-inline px-1 link-primary"
+                                                        href="#">{{ $news->category->name }}</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h2 class="card-title entry-title h4 mb-0">
+                                            <a class="link-dark text-decoration-none"
+                                                href="/media/{{ $news->slug }}">{{ $news->title }}</a>
+                                        </h2>
+                                    </div>
+                                    <p class="card-text entry-summary text-secondary">
+                                        {{ $news->excerpt }}
                                     </p>
                                 </div>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-                <div class="col-md-6">
-                    <img src="/img/header-SMGA-2.png" class="img-fluid">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-5 bg-secondary">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="/img/logo-icon-smga.png" class="img-fluid mx-auto d-block">
-
-                </div>
-                <div class="col-md-9">
-                    <div class="text-white">
-                        <h2 class="fw-bold"> {{ __('frontend.visi') }}</h2>
-                        <p class="text-white fs-4">{{ __('frontend.visi_isi') }}
-                        </p>
-                    </div>
-                    <div class="text-white ">
-                        <h2 class=" fw-bold "> {{ __('frontend.misi') }}</h2>
-                        <p class="text-white fs-4">{{ __('frontend.misi_isi') }}
-                        </p>
-
-                    </div>
-
-                </div>
-
-
-            </div>
-        </div>
-
-    </section>
-
-    <div class="album py-5 bg-light ">
-        <div class="container ">
-            <h1 class="fw-light text-center mb-5 ">{{ __('frontend.media') }}</h1>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 ">
-                @forelse ($berita as $post)
-                    <div class="col ">
-                        <div class="card shadow-sm ">
-                            <img src="/storage/{{ $post->image->path }}" class="card-img-top" alt="{{ $post->title }}">
-
-                            <div class="card-body ">
-                                <a href="/media/{{ $post->slug }}" class="text-decoration-none">
-                                    <h4>{{ $post->title }}</h4>
-                                </a>
-                                <div class="d-flex justify-content-between align-items-center ">
-
-                                    <small class="text-muted ">{{ $post->date }}</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                @empty
-                    <p>Belum ada Berita</p>
-                @endforelse
-
-            </div>
-        </div>
-    </div>
-
-    {{-- <section class="py-5 bg-light ">
-            <div class="container ">
-                <div class="row ">
-                    <div class="col-md-6 ">
-
-                        <div class="card ">
-                            <div class="card-body ">
-                                <div>
-                                    <h5 class="fw-bold "> {{ __('frontend.pesan') }}</h5>
-                                    <img src="/img/direktur.png " style="width: 200px;float: left;margin-right: 10px;"
-                                        class="align-text-end ">
-                                    <p>Bapak Welly Thomas mendirikan perusahaan ini dengan visi untuk membuka lapangan
-                                        kerja dan jaringan bisnis di bidang industri nikel, batubara, batu gamping, dan
-                                        pasir silica. Ia juga memiliki moto untuk selalu bekerja
-                                        dengan semangat, disiplin, serta komitmen, dan untuk selalu mengutamakan
-                                        kepuasan pelanggan berlaku untuk semua staf pada industrinya Selama beberapa
-                                        tahun terakhir PT Sumber Mineral Global Abadi menjadi mitra terpercaya
-                                        bagi berbagai macam UMKM industri nikel, batubara, batu gamping, dan pasir
-                                        silica berizin. Bapak Welly Thomas mempercayai jika timnya dapat meningkatkan
-                                        performa mereka dengan dukungan besar dari perusahaan, maka
-                                        itu akan membangun nilai nilai potensial untuk semua pihak.</p>
-
-
-                                    <a data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false"
-                                        aria-controls="collapseExample">
-                                        Selengkapnya ...
-                                    </a>
-                                    <div class="collapse" id="collapseExample">
-                                        <p>Atas nama semua staf, saya akan mengambil kesempatan ini untuk mengucapkan
-                                            terimakasih yang sebesar besarnya untuk para vendor, operator tongkang, para
-                                            operator pelabuhan dan logistik beserta semua klien dan mitra
-                                            kami yang telah mendukung PT Sumber Mineral Global Abadi dalam beberapa
-                                            tahun ini.</p>
-
-                                        <p> Saya ingin menggaris bawahi bahwa kami secara berkesinambungan berkomitmen
-                                            untuk meningkatkan performa penyediaan nikel, batubara, batu gamping, dan
-                                            pasir silica dengan melebarkan sayap untuk mengembangkan jasa
-                                            kami. PT Sumber Mineral Global Abadi telah melalui setiap siklus ekonomi dan
-                                            pasar, sekarang telah diakui sebagai pemain utama dalam industri nikel,
-                                            batubara, batu gamping, dan pasir silica karena memiliki peran
-                                            penting dalam pertumbuhan perdagangan nikel, pasir dan batubara di
-                                            Indonesia.</p>
-
-                                        <p>
-                                            Meskipun perusahaan kami terbilang baru dalam bidang pertambangan nikel,
-                                            batubara, batu gamping, dan pasir silica, perusahaan ini telah membangun
-                                            asosiasi yang kuat bersama dengan klien besar di Indonesia maupun
-                                            mancanegara. Perusahaan kami memiliki komitmen
-                                            untuk selalu memberikan pelayanan terbaik kepada setiap klien kami. Ini
-                                            memperkuat rantai pasokan melalui kerja keras dan kekuatan team yang
-                                            didedikasikan untuk memperluas jangkauan bisnis.
-                                        </p>
-                                        <p> Sepanjang perjalanan PT Sumber Mineral Global Abadi, dalam rangka kerja sama
-                                            dengan partner bisnis, telah memahami Usaha Kecil dan Menengah dalam bidang
-                                            pertambangan dengan harapan untuk memperkuat posisi kami sebagai
-                                            penyedia nikel, batubara, batu gamping, dan pasir silica.
-                                        </p>
+                                <div class="card-footer border border-top-0 bg-white p-4">
+                                    <div class="entry-meta">
+                                        <ul class="nav mb-0 bsb-nav-sep">
+                                            <li class="nav-item text-secondary">
+                                                <a class="nav-link link-secondary p-0 pe-3 d-inline-flex align-items-center"
+                                                    href="#">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                        fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z">
+                                                        </path>
+                                                        <path
+                                                            d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="ms-2 fs-7">{{ $news->date }}</span>
+                                                </a>
+                                            </li>
+                                            {{-- <li class="nav-item text-secondary">
+                                                <a class="nav-link link-secondary p-0 ps-3 d-inline-flex align-items-center"
+                                                    href="#">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                        fill="currentColor" class="bi bi-chat-dots" viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z">
+                                                        </path>
+                                                        <path
+                                                            d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.437 10.437 0 0 1-.524 2.318l-.003.011a10.722 10.722 0 0 1-.244.637c-.079.186.074.394.273.362a21.673 21.673 0 0 0 .693-.125zm.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6c0 3.193-3.004 6-7 6a8.06 8.06 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a10.97 10.97 0 0 0 .398-2z">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="ms-2 fs-7">55</span>
+                                                </a>
+                                            </li> --}}
+                                        </ul>
                                     </div>
-
-
                                 </div>
                             </div>
-                        </div>
-
-
-                    </div>
-                    <div class="col-md-6 ">
-                        <div class="card ">
-                            <div class="card-body ">
-                                <div>
-                                    <h5 class="fw-bold "> {{ __('frontend.target') }}</h5>
-                                    <ul>
-                                        <li>Untuk terus berkembang dengan cara memahami resiko bisnis secara efektif.
-                                        </li>
-                                        <li>Menjadi lebih agresif dalam marketplace.</li>
-                                        <li>Memaksimalkan efisiensi penambang kecil.</li>
-                                        <li>Memaksimalkan kepuasan klien dengan pengantaran yang tepat waktu.</li>
-                                        <li>Bersaing dengan permintaan pasar yang dinamis.</li>
-                                        <li>Menjadi konsisten dalam mengimplementasikan pengelolaan perusahaan yang
-                                            baik.</li>
-                                        <li>Melipatgandakan penjualan di masa depan.</li>
-                                    </ul>
-                                    <h5 class="fw-bold "> {{ __('frontend.jasa') }}</h5>
-                                    <ul>
-                                        <li>Memenuhi semua kebutuhan nikel, batu gamping, atau biasa dikenal juga dengan
-                                            batu kapur dan juga batubara dari klien besar maupun klien kecil. </li>
-                                        <li>
-                                            Memberikan klien dengan kualitas produk nikel, batu gamping, atau biasa
-                                            dikenal juga dengan batu kapur dan juga batubara terbaik.
-                                        </li>
-                                        <li>
-                                            Pengiriman nikel, batu gamping, atau biasa dikenal juga dengan batu kapur
-                                            dan juga batubara tepat waktu dengan berinvestasi dalam kepemilikan tongkang
-                                        </li>
-                                    </ul>
-
-
-
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                    </div>
+                        </article>
+                    @endforeach
 
 
                 </div>
+
             </div>
 
-        </section> --}}
-    <section class="py-5 bg-secondary" id="calltoaction">
-        <div class="container">
-            <div class="d-flex flex-column flex-md-row align-items-sm-center">
-                <div class="col-md-8 ms-5 me-5 ">
+        </div>
+    </section>
 
-                    <p class="text-white fs-2">{{ __('frontend.mitra') }}</p>
+    <!-- Modal -->
+    @if (empty($modal->id))
+    @else
+        <div class="modal fade" id="modal{{ $modal->id }}" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">{{ __('home.announcement') }}
+                            <small>{{ $modal->date_gmt }}</small>
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
 
-                </div>
+                        <img src="/storage/{{ $modal->image }}" class="card-img-top">
 
-                <div class="d-grid gap-2 col-md-3 p-4">
-                    <a class="btn btn-primary btn-lg " href="/contact-us" type="button ">{{ __('frontend.kontak') }}</a>
+                        <p class="text-center">
+                            <a href="/announcements/{{ $modal->slug }}">View More</a>
+                        </p>
 
+
+                    </div>
                 </div>
             </div>
         </div>
-
-
-    </section>
+    @endif
 @endsection
