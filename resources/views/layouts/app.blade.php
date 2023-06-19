@@ -176,9 +176,8 @@
                 <div class="row">
                     <div class="col-sm-6 col-md-3 ">
                         <a class="webintern-footer-logo" href="#">
-                            <img class="img-responsive"
-                                src="http://hineniresources.com/assets/images/logo-hineniresources.png"
-                                style="width:100px;" alt="">
+                            <img class="img-responsive" src="/img/logo-hineniresources.png" style="width:100px;"
+                                alt="">
                         </a>
                         <div class="simple-text dark padding-sm">
                             <p>HINENI RESOURCES PTE. LTDis a Singapore incorporated company that engages in
