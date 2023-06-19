@@ -113,10 +113,10 @@
                                         {{ __('frontend.investor') }}
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="/prospektus">Prospektus</a></li>
+                                        {{-- <li><a class="dropdown-item" href="/prospektus">Prospektus</a></li>
                                         <li><a class="dropdown-item" href="/financial-reports">Financial Report</a>
                                         </li>
-                                        <li><a class="dropdown-item" href="/share-price">Share Price</a></li>
+                                        <li><a class="dropdown-item" href="/share-price">Share Price</a></li> --}}
 
                                     </ul>
                                 </li>

@@ -8,7 +8,6 @@
                             +6221 – 250 0120</i></a></li>
                 <li class="nav-item"><a href="#" class="nav-link link-dark px-2"><i
                             class="bi bi-envelope-fill"></i> info@sumberglobalenergy.com</a></li>
-
             </ul>
             <ul class="nav d-none d-lg-block d-xl-none">
                 <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Login</a></li>
@@ -16,8 +15,6 @@
             </ul>
         </div>
     </nav> --}}
-
-
     {{-- @yield('slider') --}}
     <section id="home" class="home bg-dark fix">
         <div class="overlay"></div>
@@ -37,7 +34,6 @@
                                             <h1 class="text-white">HINENI RESOURCES PTE. LTD</h1>
                                             <h3 class="text-white">- was established in <strong>2021</strong></h3>
                                         </div>
-
                                         <div class="home_btns m-top-40">
                                             <a href="mailto:inqury@hineniresources.com" class="btn btn-primary m-top-20"
                                                 tabindex="0">Contact Us</a>
@@ -46,56 +42,48 @@
                                     </div>
                                 </div>
                             </div><!-- End off slid item -->
-
                         </div>
                     </div>
-
                 </div>
-
-
             </div>
             <!--End off row-->
         </div>
         <!--End off container -->
     </section>
-
     <section id="aboutus" class="bg-black">
         <div class="container">
             <div class="row py-4">
                 <div class="col-md-6">
                     <img src="/img/profile-hineniresource.png" class="img-fluid">
                     <!-- <div class="business_slid">
-                                                                                                                                        <div class="slid_shap bg-grey"></div>
-                                                                                                                                        <div class="business_items text-center">
-                                                                                                                                            <div class="business_item">
-                                                                                                                                                <div class="business_img">
-                                                                                                                                                    <img src="assets/images/about-img1.jpg" alt="" />
+                                                                                                                                                <div class="slid_shap bg-grey"></div>
+                                                                                                                                                <div class="business_items text-center">
+                                                                                                                                                    <div class="business_item">
+                                                                                                                                                        <div class="business_img">
+                                                                                                                                                            <img src="assets/images/about-img1.jpg" alt="" />
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                    <div class="business_item">
+                                                                                                                                                        <div class="business_img">
+                                                                                                                                                            <img src="assets/images/about-img1.jpg" alt="" />
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                    <div class="business_item">
+                                                                                                                                                        <div class="business_img">
+                                                                                                                                                            <img src="assets/images/about-img1.jpg" alt="" />
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
                                                                                                                                                 </div>
-                                                                                                                                            </div>
-
-                                                                                                                                            <div class="business_item">
-                                                                                                                                                <div class="business_img">
-                                                                                                                                                    <img src="assets/images/about-img1.jpg" alt="" />
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-
-                                                                                                                                            <div class="business_item">
-                                                                                                                                                <div class="business_img">
-                                                                                                                                                    <img src="assets/images/about-img1.jpg" alt="" />
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                    </div> -->
+                                                                                                                                            </div> -->
                 </div>
-
                 <div class="col-md-6">
                     <div class="sm-m-top-50">
                         <h2 class="text-uppercase text-white"><strong>COMPANY</strong> BACKGROUND</h2>
                         <!-- <ul>
-                                                                                                                                            <li><i class="fa fa-arrow-circle-right"></i> Clean & Modern Design</li>
-                                                                                                                                            <li><i class="fa  fa-arrow-circle-right"></i> Fully Responsive</li>
-                                                                                                                                            <li><i class="fa  fa-arrow-circle-right"></i> Google Fonts</li>
-                                                                                                                                        </ul> -->
+                                                                                                                                                    <li><i class="fa fa-arrow-circle-right"></i> Clean & Modern Design</li>
+                                                                                                                                                    <li><i class="fa  fa-arrow-circle-right"></i> Fully Responsive</li>
+                                                                                                                                                    <li><i class="fa  fa-arrow-circle-right"></i> Google Fonts</li>
+                                                                                                                                                </ul> -->
                         <p class="m-top-20 text-white">HINENI RESOURCES PTE. LTD was established in 2021. Our main
                             office is located in
                             Orchard Tower, Singapore. We also operate in Jakarta, Indonesia. The Business's
@@ -114,15 +102,11 @@
                             HINENI RESOURCES PTE. LTDis a Singapore incorporated company that engages in
                             international customers from various industrial sectors.
                         </p>
-
-
-
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
     <section id="action" class="action roomy-40" style=" background-color: #8dc73f; ">
         <div class="container">
             <div class="row">
@@ -134,17 +118,13 @@
                 <div class="col-md-4">
                     <div class="d-grid gap-2 text-start me-4 sm-text-center">
                         <button class="btn btn-dark" type="button">Contact Us</button>
-
                     </div>
-
                 </div>
             </div>
         </div>
     </section>
-
     <section class="container">
         <div class="text-center mb-3 mt-5 ">
-
             <h1 class="text-black">News & Update</h1>
             {{-- <h3 class="text-white">- was established in <strong>2021</strong></h3> --}}
         </div>
@@ -154,15 +134,23 @@
                     @foreach ($berita as $news)
                         <article class="p-3">
                             <div class="card border-0">
-                                <figure class="card-img-top m-0 overflow-hidden bsb-hover-overlay">
-                                    <a href="#"
-                                        onclick="if (!window.__cfRLUnblockHandlers) return false; return false;">
-                                        <img decoding="async" class="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy"
-                                            src="https://bootstrapbrain.com/wp-content/plugins/bootstrap-brain/components-pro/blogs-pro/blog-2/assets/img/blog-image-1.jpg"
-                                            alt="">
-                                    </a>
-
-                                </figure>
+                                @if ($news->image)
+                                    <figure class="card-img-top m-0 overflow-hidden bsb-hover-overlay">
+                                        <a href="/media/{{ $news->slug }}">
+                                            <img decoding="async" class="img-fluid bsb-scale bsb-hover-scale-up"
+                                                loading="lazy" src="/storage/{{ $news->image->path }}" alt="">
+                                        </a>
+                                    </figure>
+                                @else
+                                    <figure class="card-img-top m-0 overflow-hidden bsb-hover-overlay">
+                                        <a href="/media/{{ $news->slug }}">
+                                            <img decoding="async" class="img-fluid bsb-scale bsb-hover-scale-up"
+                                                loading="lazy"
+                                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/1665px-No-Image-Placeholder.svg.png"
+                                                alt="">
+                                        </a>
+                                    </figure>
+                                @endif
                                 <div class="card-body border bg-white p-4">
                                     <div class="entry-header mb-3">
                                         <div class="entry-meta mb-3">
@@ -221,15 +209,10 @@
                             </div>
                         </article>
                     @endforeach
-
-
                 </div>
-
             </div>
-
         </div>
     </section>
-
     <!-- Modal -->
     @if (empty($modal->id))
     @else
@@ -244,14 +227,10 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-
                         <img src="/storage/{{ $modal->image }}" class="card-img-top">
-
                         <p class="text-center">
                             <a href="/announcements/{{ $modal->slug }}">View More</a>
                         </p>
-
-
                     </div>
                 </div>
             </div>
