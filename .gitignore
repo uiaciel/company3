@@ -8,6 +8,7 @@
 /storage/*.key
 /vendor
 /public/lang2
+/publicold/
 .env
 .env.backup
 .env.production

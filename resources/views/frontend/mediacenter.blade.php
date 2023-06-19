@@ -29,7 +29,7 @@
                         </div>
                     @endforeach
                 </div>
-                {{-- <div class="col-md-4 col-lg-4">
+                <div class="col-md-4 col-lg-4">
                     <div class="card primary">
                         <div class="card-body">
                             <h4 class="card-title">CONTACT US</h4>
@@ -39,10 +39,10 @@
                         </div>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">Phone : (+6221) 2500120</li>
-                            <li class="list-group-item">info@hineniresources.com</li>
+                            <li class="list-group-item">inquiry@hineniresources.com</li>
                         </ul>
                     </div>
-                </div> --}}
+                </div>
             </div>
         </div>
     </div>
