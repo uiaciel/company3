@@ -63,39 +63,39 @@
         <div class="container">
             <div class="row py-4">
                 <div class="col-md-6">
-                    <img src="http://hineniresources.com/assets/images/profile-hineniresource.png" class="img-fluid">
+                    <img src="/img/profile-hineniresource.png" class="img-fluid">
                     <!-- <div class="business_slid">
-                                                                                                                                    <div class="slid_shap bg-grey"></div>
-                                                                                                                                    <div class="business_items text-center">
-                                                                                                                                        <div class="business_item">
-                                                                                                                                            <div class="business_img">
-                                                                                                                                                <img src="assets/images/about-img1.jpg" alt="" />
+                                                                                                                                        <div class="slid_shap bg-grey"></div>
+                                                                                                                                        <div class="business_items text-center">
+                                                                                                                                            <div class="business_item">
+                                                                                                                                                <div class="business_img">
+                                                                                                                                                    <img src="assets/images/about-img1.jpg" alt="" />
+                                                                                                                                                </div>
                                                                                                                                             </div>
-                                                                                                                                        </div>
 
-                                                                                                                                        <div class="business_item">
-                                                                                                                                            <div class="business_img">
-                                                                                                                                                <img src="assets/images/about-img1.jpg" alt="" />
+                                                                                                                                            <div class="business_item">
+                                                                                                                                                <div class="business_img">
+                                                                                                                                                    <img src="assets/images/about-img1.jpg" alt="" />
+                                                                                                                                                </div>
                                                                                                                                             </div>
-                                                                                                                                        </div>
 
-                                                                                                                                        <div class="business_item">
-                                                                                                                                            <div class="business_img">
-                                                                                                                                                <img src="assets/images/about-img1.jpg" alt="" />
+                                                                                                                                            <div class="business_item">
+                                                                                                                                                <div class="business_img">
+                                                                                                                                                    <img src="assets/images/about-img1.jpg" alt="" />
+                                                                                                                                                </div>
                                                                                                                                             </div>
                                                                                                                                         </div>
-                                                                                                                                    </div>
-                                                                                                                                </div> -->
+                                                                                                                                    </div> -->
                 </div>
 
                 <div class="col-md-6">
                     <div class="sm-m-top-50">
                         <h2 class="text-uppercase text-white"><strong>COMPANY</strong> BACKGROUND</h2>
                         <!-- <ul>
-                                                                                                                                        <li><i class="fa fa-arrow-circle-right"></i> Clean & Modern Design</li>
-                                                                                                                                        <li><i class="fa  fa-arrow-circle-right"></i> Fully Responsive</li>
-                                                                                                                                        <li><i class="fa  fa-arrow-circle-right"></i> Google Fonts</li>
-                                                                                                                                    </ul> -->
+                                                                                                                                            <li><i class="fa fa-arrow-circle-right"></i> Clean & Modern Design</li>
+                                                                                                                                            <li><i class="fa  fa-arrow-circle-right"></i> Fully Responsive</li>
+                                                                                                                                            <li><i class="fa  fa-arrow-circle-right"></i> Google Fonts</li>
+                                                                                                                                        </ul> -->
                         <p class="m-top-20 text-white">HINENI RESOURCES PTE. LTD was established in 2021. Our main
                             office is located in
                             Orchard Tower, Singapore. We also operate in Jakarta, Indonesia. The Business's
